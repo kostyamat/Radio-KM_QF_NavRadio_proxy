@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Radio-KM</string>
+
+    <!-- FmMainActivity -->
+    <string name="no_compatible_radio_app_installed">Nije instalirana kompatibilna NavRadio aplikacija.</string>
+    <string name="permission_required">Potrebna je dozvola</string>
+    <string name="permission_required_message">Da bi se popravio medijski vidžet, aplikaciji je potrebna dozvola za prikazivanje preko drugih aplikacija. Omogućite je na sljedećem ekranu.</string>
+    <string name="open_settings">Otvori postavke</string>
+    <string name="could_not_open_settings">Nije moguće otvoriti postavke. Molimo vas da dozvolu date ručno.</string>
+    <string name="cancel">Otkaži</string>
+
+    <!-- WidgetWatcherService -->
+    <string name="notification_channel_name">Servis za praćenje vidžeta</string>
+    <string name="notification_title">Radio-KM Proxy</string>
+    <string name="notification_text">Pomaže NavRadio-u da zadrži vidžet.</string>
+</resources>

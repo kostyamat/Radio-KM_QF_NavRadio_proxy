@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Радио-КМ</string>
+
+    <!-- FmMainActivity -->
+    <string name="no_compatible_radio_app_installed">Не е инсталирана компатибилна апликација NavRadio.</string>
+    <string name="permission_required">Потребна е дозвола</string>
+    <string name="permission_required_message">За да се поправи виџетот за медиуми, на апликацијата и е потребна дозвола за прикажување над други апликации. Овозможете ја на следниот екран.</string>
+    <string name="open_settings">Отвори ги поставките</string>
+    <string name="could_not_open_settings">Не може да се отворат поставките. Дајте дозвола рачно.</string>
+    <string name="cancel">Откажи</string>
+
+    <!-- WidgetWatcherService -->
+    <string name="notification_channel_name">Услуга за следење на виџети</string>
+    <string name="notification_title">Радио-КМ прокси</string>
+    <string name="notification_text">Помагање на NavRadio да го задржи виџетот.</string>
+</resources>

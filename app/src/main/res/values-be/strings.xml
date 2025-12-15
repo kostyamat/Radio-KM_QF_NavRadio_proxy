@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Radio-KM</string>
+
+    <!-- FmMainActivity -->
+    <string name="no_compatible_radio_app_installed">Няма ўсталяванай сумяшчальнай праграмы NavRadio.</string>
+    <string name="permission_required">Патрабуецца дазвол</string>
+    <string name="permission_required_message">Каб выправіць віджэт мультымедыя, праграме патрэбны дазвол на адлюстраванне над іншымі праграмамі. Уключыце яго на наступным экране.</string>
+    <string name="open_settings">Адкрыць налады</string>
+    <string name="could_not_open_settings">Не ўдалося адкрыць налады. Дайце дазвол уручную.</string>
+    <string name="cancel">Скасаваць</string>
+
+    <!-- WidgetWatcherService -->
+    <string name="notification_channel_name">Служба назірання за віджэтамі</string>
+    <string name="notification_title">Проксі Radio-KM</string>
+    <string name="notification_text">Дапамога NavRadio захаваць віджэт.</string>
+</resources>

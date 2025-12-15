@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Radio-KM</string>
+
+    <!-- FmMainActivity -->
+    <string name="no_compatible_radio_app_installed">Mos keluvchi NavRadio ilovasi o‘rnatilmagan.</string>
+    <string name="permission_required">Ruxsat talab qilinadi</string>
+    <string name="permission_required_message">Media vidjetini tuzatish uchun ilovaga boshqa ilovalar ustida ko‘rsatish uchun ruxsat kerak. Iltimos, keyingi ekranda uni yoqing.</string>
+    <string name="open_settings">Sozlamalarni ochish</string>
+    <string name="could_not_open_settings">Sozlamalarni ochib bo‘lmadi. Iltimos, ruxsatni qo‘lda bering.</string>
+    <string name="cancel">Bekor qilish</string>
+
+    <!-- WidgetWatcherService -->
+    <string name="notification_channel_name">Vidjet kuzatuvchi xizmati</string>
+    <string name="notification_title">Radio-KM proksi</string>
+    <string name="notification_text">NavRadio-ga vidjetni saqlashga yordam berish.</string>
+</resources>

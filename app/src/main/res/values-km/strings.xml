@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Radio-KM</string>
+
+    <!-- FmMainActivity -->
+    <string name="no_compatible_radio_app_installed">គ្មានកម្មវិធី NavRadio ដែលត្រូវគ្នាត្រូវបានដំឡើងទេ។</string>
+    <string name="permission_required">ត្រូវការការអនុញ្ញាត</string>
+    <string name="permission_required_message">ដើម្បីជួសជុលធាតុក្រាហ្វិកមេឌៀ កម្មវិធីត្រូវការការអនុញ្ញាតដើម្បីបង្ហាញនៅលើកម្មវិធីផ្សេងទៀត។ សូមបើកវានៅក្នុងអេក្រង់បន្ទាប់។</string>
+    <string name="open_settings">បើកការកំណត់</string>
+    <string name="could_not_open_settings">មិនអាចបើកការកំណត់បានទេ។ សូមផ្តល់ការអនុញ្ញាតដោយដៃ។</string>
+    <string name="cancel">បោះបង់</string>
+
+    <!-- WidgetWatcherService -->
+    <string name="notification_channel_name">សេវាកម្មអ្នកមើលធាតុក្រាហ្វិក</string>
+    <string name="notification_title">ប្រូកស៊ីវិទ្យុ-KM</string>
+    <string name="notification_text">ជួយ NavRadio ឱ្យរក្សាធាតុក្រាហ្វិក។</string>
+</resources>

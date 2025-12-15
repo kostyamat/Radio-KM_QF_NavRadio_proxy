@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Radio-KM</string>
+
+    <!-- FmMainActivity -->
+    <string name="no_compatible_radio_app_installed">ບໍ່ມີແອັບ NavRadio ທີ່ເຂົ້າກັນໄດ້ຕິດຕັ້ງໄວ້.</string>
+    <string name="permission_required">ຕ້ອງການການອະນຸຍາດ</string>
+    <string name="permission_required_message">ເພື່ອແກ້ໄຂວິດເຈັດສື່, ແອັບຕ້ອງການການອະນຸຍາດເພື່ອສະແດງຢູ່ເທິງແອັບອື່ນ. ກະລຸນາເປີດໃຊ້ມັນໃນໜ້າຈໍຕໍ່ไป.</string>
+    <string name="open_settings">ເປີດການຕັ້ງຄ່າ</string>
+    <string name="could_not_open_settings">ບໍ່ສາມາດເປີດການຕັ້ງຄ່າໄດ້. ກະລຸນາໃຫ້ການອະນຸຍາດດ້ວຍຕົນເອງ.</string>
+    <string name="cancel">ຍົກເລີກ</string>
+
+    <!-- WidgetWatcherService -->
+    <string name="notification_channel_name">ບໍລິການເບິ່ງວິດເຈັດ</string>
+    <string name="notification_title">Radio-KM Proxy</string>
+    <string name="notification_text">ຊ່ວຍ NavRadio ຮັກສາວິດເຈັດ.</string>
+</resources>

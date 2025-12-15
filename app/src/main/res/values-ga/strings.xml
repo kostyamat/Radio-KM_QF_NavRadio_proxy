@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Radio-KM</string>
+
+    <!-- FmMainActivity -->
+    <string name="no_compatible_radio_app_installed">Níl aip NavRadio comhoiriúnach suiteáilte.</string>
+    <string name="permission_required">Cead ag teastáil</string>
+    <string name="permission_required_message">Chun an ghiuirléid meán a dheisiú, teastaíonn cead ón aip a bheith ar taispeáint os cionn aipeanna eile. Cumasaigh é sa chéad scáileán eile, le do thoil.</string>
+    <string name="open_settings">Oscail Socruithe</string>
+    <string name="could_not_open_settings">Níorbh fhéidir socruithe a oscailt. Deonaigh cead de láimh, le do thoil.</string>
+    <string name="cancel">Cealaigh</string>
+
+    <!-- WidgetWatcherService -->
+    <string name="notification_channel_name">Seirbhís Faire Giuirléidí</string>
+    <string name="notification_title">Seachfhreastalaí Radio-KM</string>
+    <string name="notification_text">Ag cabhrú le NavRadio an ghiuirléid a choinneáil.</string>
+</resources>

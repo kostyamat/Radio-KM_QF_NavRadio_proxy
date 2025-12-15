@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Radio-KM</string>
+
+    <!-- FmMainActivity -->
+    <string name="no_compatible_radio_app_installed">လိုက်ဖက်တဲ့ NavRadio အက်ပ်ကို ထည့်သွင်းမထားပါ။</string>
+    <string name="permission_required">ခွင့်ပြုချက် လိုအပ်သည်</string>
+    <string name="permission_required_message">မီဒီယာဝစ်ဂျက်ကို ပြင်ရန်၊ အက်ပ်သည် အခြားအက်ပ်များအပေါ်တွင် ပြသရန် ခွင့်ပြုချက် လိုအပ်သည်။ ကျေးဇူးပြု၍ နောက်မျက်နှာပြင်တွင် ၎င်းကို ဖွင့်ပါ။</string>
+    <string name="open_settings">ဆက်တင်များကို ဖွင့်ပါ</string>
+    <string name="could_not_open_settings">ဆက်တင်များကို ဖွင့်နိုင်ませんでした။ ကျေးဇူးပြု၍ ခွင့်ပြုချက်ကို ကိုယ်တိုင်ပေးပါ။</string>
+    <string name="cancel">ပယ်ဖျက်ပါ</string>
+
+    <!-- WidgetWatcherService -->
+    <string name="notification_channel_name">ဝစ်ဂျက်ကြည့်ရှုသူ ဝန်ဆောင်မှု</string>
+    <string name="notification_title">Radio-KM ပရောက်စီ</string>
+    <string name="notification_text">ဝစ်ဂျက်ကို ထိန်းသိမ်းရန် NavRadio ကို ကူညီခြင်း။</string>
+</resources>

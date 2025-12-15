@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Radio-KM</string>
+
+    <!-- FmMainActivity -->
+    <string name="no_compatible_radio_app_installed">Nuk është instaluar asnjë aplikacion i përputhshëm NavRadio.</string>
+    <string name="permission_required">Kërkohet leje</string>
+    <string name="permission_required_message">Për të rregulluar miniaplikacionin e medias, aplikacioni ka nevojë për leje për t\'u shfaqur mbi aplikacionet e tjera. Ju lutemi aktivizojeni në ekranin tjetër.</string>
+    <string name="open_settings">Hap cilësimet</string>
+    <string name="could_not_open_settings">Cilësimet nuk mund të hapeshin. Ju lutemi jepni lejen manualisht.</string>
+    <string name="cancel">Anulo</string>
+
+    <!-- WidgetWatcherService -->
+    <string name="notification_channel_name">Shërbimi i vëzhguesit të miniaplikacioneve</string>
+    <string name="notification_title">Proxy Radio-KM</string>
+    <string name="notification_text">Duke ndihmuar NavRadio të mbajë miniaplikacionin.</string>
+</resources>

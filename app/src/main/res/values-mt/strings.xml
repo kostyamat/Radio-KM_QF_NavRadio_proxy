@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Radio-KM</string>
+
+    <!-- FmMainActivity -->
+    <string name="no_compatible_radio_app_installed">L-ebda app NavRadio kompatibbli mhi installata.</string>
+    <string name="permission_required">Permess Meħtieġ</string>
+    <string name="permission_required_message">Biex tirranġa l-widget tal-midja, l-app teħtieġ permess biex tintwera fuq apps oħra. Jekk jogħġbok ippermettiha fl-iskrin li jmiss.</string>
+    <string name="open_settings">Iftaħ is-Settings</string>
+    <string name="could_not_open_settings">Ma setax jiftaħ is-settings. Jekk jogħġbok agħti l-permess manwalment.</string>
+    <string name="cancel">Ikkanċella</string>
+
+    <!-- WidgetWatcherService -->
+    <string name="notification_channel_name">Servizz tal-Għassa tal-Widget</string>
+    <string name="notification_title">Prokura tar-Radju-KM</string>
+    <string name="notification_text">Ngħinu lil NavRadio biex iżomm il-widget.</string>
+</resources>
