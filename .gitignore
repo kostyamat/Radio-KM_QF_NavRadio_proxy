@@ -17,6 +17,10 @@ captures/
 *.ap_
 *.aab
 
+# allow release folder contents
+!/app/release/
+!/app/release/*
+
 # Signing keys
 *.jks
 *.keystore
