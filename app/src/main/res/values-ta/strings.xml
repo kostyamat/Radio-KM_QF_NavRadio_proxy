@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Radio-KM</string>
+
+    <!-- FmMainActivity -->
+    <string name="no_compatible_radio_app_installed">இணக்கமான NavRadio ஆப் நிறுவப்படவில்லை.</string>
+    <string name="permission_required">அனுமதி தேவை</string>
+    <string name="permission_required_message">மீடியா விட்ஜெட்டை சரிசெய்ய, பிற பயன்பாடுகளுக்கு மேல் காண்பிக்க பயன்பாட்டிற்கு அனுமதி தேவை. அடுத்த திரையில் அதை இயக்கவும்.</string>
+    <string name="open_settings">அமைப்புகளைத் திற</string>
+    <string name="could_not_open_settings">அமைப்புகளைத் திறக்க முடியவில்லை. அனுமதியை கைமுறையாக வழங்கவும்.</string>
+    <string name="cancel">ரத்துசெய்</string>
+
+    <!-- WidgetWatcherService -->
+    <string name="notification_channel_name">விட்ஜெட் வாட்சர் சேவை</string>
+    <string name="notification_title">ரேடியோ-கேஎம் ப்ராக்ஸி</string>
+    <string name="notification_text">விட்ஜெட்டை வைத்திருக்க NavRadio-க்கு உதவுகிறது.</string>
+</resources>

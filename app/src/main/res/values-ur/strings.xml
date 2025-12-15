@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Radio-KM</string>
+
+    <!-- FmMainActivity -->
+    <string name="no_compatible_radio_app_installed">کوئی ہم آہنگ NavRadio ایپ انسٹال نہیں ہے۔</string>
+    <string name="permission_required">اجازت درکار ہے</string>
+    <string name="permission_required_message">میڈیا ویجیٹ کو ٹھیک کرنے کے لیے، ایپ کو دیگر ایپس پر ڈسپلے کرنے کی اجازت درکار ہے۔ براہ کرم اسے اگلی اسکرین میں فعال کریں۔</string>
+    <string name="open_settings">ترتیبات کھولیں</string>
+    <string name="could_not_open_settings">ترتیبات نہیں کھل سکیں۔ براہ کرم دستی طور پر اجازت دیں۔</string>
+    <string name="cancel">منسوخ کریں</string>
+
+    <!-- WidgetWatcherService -->
+    <string name="notification_channel_name">ویجیٹ واچر سروس</string>
+    <string name="notification_title">Radio-KM پراکسی</string>
+    <string name="notification_text">ویجیٹ کو رکھنے میں NavRadio کی مدد کرنا۔</string>
+</resources>

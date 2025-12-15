@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Radio-KM</string>
+
+    <!-- FmMainActivity -->
+    <string name="no_compatible_radio_app_installed">No hi ha cap aplicació NavRadio compatible instal·lada.</string>
+    <string name="permission_required">Cal permís</string>
+    <string name="permission_required_message">Per arreglar el giny multimèdia, l\'aplicació necessita permís per mostrar-se sobre altres aplicacions. Si us plau, activeu-lo a la pantalla següent.</string>
+    <string name="open_settings">Obre la configuració</string>
+    <string name="could_not_open_settings">No s\'ha pogut obrir la configuració. Si us plau, concediu el permís manualment.</string>
+    <string name="cancel">Cancel·la</string>
+
+    <!-- WidgetWatcherService -->
+    <string name="notification_channel_name">Servei de vigilància de ginys</string>
+    <string name="notification_title">Proxy de Radio-KM</string>
+    <string name="notification_text">Ajudant NavRadio a mantenir el giny.</string>
+</resources>

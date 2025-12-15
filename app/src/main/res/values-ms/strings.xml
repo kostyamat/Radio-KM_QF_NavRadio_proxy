@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Radio-KM</string>
+
+    <!-- FmMainActivity -->
+    <string name="no_compatible_radio_app_installed">Tiada aplikasi NavRadio yang serasi dipasang.</string>
+    <string name="permission_required">Kebenaran Diperlukan</string>
+    <string name="permission_required_message">Untuk membetulkan widget media, aplikasi memerlukan kebenaran untuk dipaparkan di atas aplikasi lain. Sila dayakannya pada skrin seterusnya.</string>
+    <string name="open_settings">Buka Tetapan</string>
+    <string name="could_not_open_settings">Tidak dapat membuka tetapan. Sila berikan kebenaran secara manual.</string>
+    <string name="cancel">Batal</string>
+
+    <!-- WidgetWatcherService -->
+    <string name="notification_channel_name">Perkhidmatan Pemerhati Widget</string>
+    <string name="notification_title">Proksi Radio-KM</string>
+    <string name="notification_text">Membantu NavRadio untuk mengekalkan widget.</string>
+</resources>

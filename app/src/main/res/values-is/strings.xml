@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Radio-KM</string>
+
+    <!-- FmMainActivity -->
+    <string name="no_compatible_radio_app_installed">Ekkert samhæft NavRadio forrit uppsett.</string>
+    <string name="permission_required">Leyfi krafist</string>
+    <string name="permission_required_message">Til að laga miðlunargræjuna þarf forritið leyfi til að birtast yfir öðrum forritum. Vinsamlegast virkjaðu það á næsta skjá.</string>
+    <string name="open_settings">Opna stillingar</string>
+    <string name="could_not_open_settings">Gat ekki opnað stillingar. Vinsamlegast veittu leyfi handvirkt.</string>
+    <string name="cancel">Hætta við</string>
+
+    <!-- WidgetWatcherService -->
+    <string name="notification_channel_name">Græjuvöktunarþjónusta</string>
+    <string name="notification_title">Radio-KM umboð</string>
+    <string name="notification_text">Hjálpar NavRadio að halda græjunni.</string>
+</resources>

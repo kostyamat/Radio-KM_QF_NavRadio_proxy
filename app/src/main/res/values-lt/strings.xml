@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Radio-KM</string>
+
+    <!-- FmMainActivity -->
+    <string name="no_compatible_radio_app_installed">Nėra įdiegtos suderinamos „NavRadio“ programos.</string>
+    <string name="permission_required">Reikalingas leidimas</string>
+    <string name="permission_required_message">Kad būtų galima pataisyti medijos valdiklį, programai reikia leidimo rodyti virš kitų programų. Įjunkite jį kitame ekrane.</string>
+    <string name="open_settings">Atidaryti nustatymus</string>
+    <string name="could_not_open_settings">Nepavyko atidaryti nustatymų. Suteikite leidimą rankiniu būdu.</string>
+    <string name="cancel">Atšaukti</string>
+
+    <!-- WidgetWatcherService -->
+    <string name="notification_channel_name">Valdiklių stebėjimo tarnyba</string>
+    <string name="notification_title">„Radio-KM“ tarpinis serveris</string>
+    <string name="notification_text">Pagalba „NavRadio“ išlaikyti valdiklį.</string>
+</resources>

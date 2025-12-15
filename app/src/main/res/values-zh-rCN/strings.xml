@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Radio-KM</string>
+
+    <!-- FmMainActivity -->
+    <string name="no_compatible_radio_app_installed">未安装兼容的 NavRadio 应用。</string>
+    <string name="permission_required">需要权限</string>
+    <string name="permission_required_message">要修复媒体小部件，该应用需要权限才能在其他应用上显示。请在下一个屏幕中启用它。</string>
+    <string name="open_settings">打开设置</string>
+    <string name="could_not_open_settings">无法打开设置。请手动授予权限。</string>
+    <string name="cancel">取消</string>
+
+    <!-- WidgetWatcherService -->
+    <string name="notification_channel_name">小部件观察器服务</string>
+    <string name="notification_title">Radio-KM 代理</string>
+    <string name="notification_text">帮助 NavRadio 保留小部件。</string>
+</resources>

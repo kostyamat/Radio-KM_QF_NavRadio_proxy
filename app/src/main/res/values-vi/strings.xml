@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Radio-KM</string>
+
+    <!-- FmMainActivity -->
+    <string name="no_compatible_radio_app_installed">Không có ứng dụng NavRadio tương thích nào được cài đặt.</string>
+    <string name="permission_required">Yêu cầu quyền</string>
+    <string name="permission_required_message">Để sửa tiện ích media, ứng dụng cần có quyền hiển thị trên các ứng dụng khác. Vui lòng bật quyền này trong màn hình tiếp theo.</string>
+    <string name="open_settings">Mở cài đặt</string>
+    <string name="could_not_open_settings">Không thể mở cài đặt. Vui lòng cấp quyền theo cách thủ công.</string>
+    <string name="cancel">Hủy</string>
+
+    <!-- WidgetWatcherService -->
+    <string name="notification_channel_name">Dịch vụ theo dõi tiện ích</string>
+    <string name="notification_title">Proxy Radio-KM</string>
+    <string name="notification_text">Giúp NavRadio giữ lại tiện ích.</string>
+</resources>

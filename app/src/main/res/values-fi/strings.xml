@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Radio-KM</string>
+
+    <!-- FmMainActivity -->
+    <string name="no_compatible_radio_app_installed">Yhteensopivaa NavRadio-sovellusta ei ole asennettu.</string>
+    <string name="permission_required">Lupa vaaditaan</string>
+    <string name="permission_required_message">Medialisäkkeen korjaamiseksi sovellus tarvitsee luvan näkyä muiden sovellusten päällä. Ota se käyttöön seuraavassa näytössä.</string>
+    <string name="open_settings">Avaa asetukset</string>
+    <string name="could_not_open_settings">Asetuksia ei voitu avata. Anna lupa manuaalisesti.</string>
+    <string name="cancel">Peruuta</string>
+
+    <!-- WidgetWatcherService -->
+    <string name="notification_channel_name">Widget Watcher -palvelu</string>
+    <string name="notification_title">Radio-KM-välityspalvelin</string>
+    <string name="notification_text">Auttaa NavRadiota pitämään widgetin.</string>
+</resources>

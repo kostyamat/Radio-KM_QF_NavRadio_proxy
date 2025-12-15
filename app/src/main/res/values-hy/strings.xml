@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Radio-KM</string>
+
+    <!-- FmMainActivity -->
+    <string name="no_compatible_radio_app_installed">Համատեղելի NavRadio հավելված տեղադրված չէ։</string>
+    <string name="permission_required">Պահանջվում է թույլտվություն</string>
+    <string name="permission_required_message">Մեդիա վիդջեթը շտկելու համար հավելվածին անհրաժեշտ է թույլտվություն՝ այլ հավելվածների վրա ցուցադրվելու համար։ Խնդրում ենք միացնել այն հաջորդ էկրանին։</string>
+    <string name="open_settings">Բացել կարգավորումները</string>
+    <string name="could_not_open_settings">Չհաջողվեց բացել կարգավորումները։ Խնդրում ենք թույլտվությունը տրամադրել ձեռքով։</string>
+    <string name="cancel">Չեղարկել</string>
+
+    <!-- WidgetWatcherService -->
+    <string name="notification_channel_name">Վիդջեթների դիտման ծառայություն</string>
+    <string name="notification_title">Radio-KM պրոքսի</string>
+    <string name="notification_text">Օգնում է NavRadio-ին պահպանել վիդջեթը։</string>
+</resources>

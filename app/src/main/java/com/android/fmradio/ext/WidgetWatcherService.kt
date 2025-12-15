@@ -64,15 +64,15 @@ class WidgetWatcherService : Service() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             val channel = NotificationChannel(
                 channelId,
-                "Widget Watcher Service",
+                getString(R.string.notification_channel_name),
                 NotificationManager.IMPORTANCE_MIN
             )
             getSystemService(NotificationManager::class.java).createNotificationChannel(channel)
         }
 
         val notification = NotificationCompat.Builder(this, channelId)
-            .setContentTitle("Radio Proxy")
-            .setContentText("Helping NavRadio keep the widget.")
+            .setContentTitle(getString(R.string.notification_title))
+            .setContentText(getString(R.string.notification_text))
             .setSmallIcon(R.mipmap.ic_launcher)
             .setPriority(NotificationCompat.PRIORITY_MIN)
             .build()

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Radio-KM</string>
+
+    <!-- FmMainActivity -->
+    <string name="no_compatible_radio_app_installed">Ayikho i-app ye-NavRadio ehambisanayo efakiwe.</string>
+    <string name="permission_required">Kudingeka Imvume</string>
+    <string name="permission_required_message">Ukuze ulungise iwijethi yemidiya, uhlelo lokusebenza ludinga imvume yokuboniswa ngaphezu kwezinye izinhlelo zokusebenza. Sicela uyinike amandla esikrinini esilandelayo.</string>
+    <string name="open_settings">Vula Izilungiselelo</string>
+    <string name="could_not_open_settings">Ayikwazanga ukuvula izilungiselelo. Sicela unikeze imvume mathupha.</string>
+    <string name="cancel">Khansela</string>
+
+    <!-- WidgetWatcherService -->
+    <string name="notification_channel_name">Isevisi Yomqaphi Wewijethi</string>
+    <string name="notification_title">I-Radio-KM Proxy</string>
+    <string name="notification_text">Isiza i-NavRadio ukuthi igcine iwijethi.</string>
+</resources>

@@ -17,7 +17,9 @@ import android.util.Log
 import android.view.KeyEvent
 import android.view.MotionEvent
 import android.widget.Toast
+import androidx.core.net.toUri
 import com.android.fmradio.ext.NavRadioHelper
+import com.android.fmradio.ext.R
 import com.android.fmradio.ext.WidgetWatcherService
 
 class FmMainActivity : Activity() {
@@ -28,7 +30,6 @@ class FmMainActivity : Activity() {
         private const val CAROUSEL_REFERRER = "com.qf.framework"
         private const val EXTRA_IS_CLOAK_INTENT = "com.android.fmradio.IS_CLOAK_INTENT"
         private const val ACTION_FINISH_PROXY = "android.intent.action.MODE_SWITCH"
-        private const val HACK_DELAY_MS = 350L
         private var watcherServiceStarted = false
     }
 
@@ -81,11 +82,7 @@ class FmMainActivity : Activity() {
             if (Settings.canDrawOverlays(this)) {
                 Log.d(TAG, "Overlay permission is granted. Starting WidgetWatcherService.")
                 val serviceIntent = Intent(this, WidgetWatcherService::class.java)
-                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-                    startForegroundService(serviceIntent)
-                } else {
-                    startService(serviceIntent)
-                }
+                startForegroundService(serviceIntent)
                 watcherServiceStarted = true
             } else {
                 Log.w(TAG, "Overlay permission is NOT granted. Cannot start watcher service.")
@@ -116,7 +113,7 @@ class FmMainActivity : Activity() {
     }
 
     private fun updateLaunchSource(launchIntent: Intent) {
-        logIntent(launchIntent, "updateLaunchSource")
+        logIntent(launchIntent)
 
         if (launchIntent.action == Intent.ACTION_MAIN) {
             val referrerUri: Uri? = referrer
@@ -136,7 +133,7 @@ class FmMainActivity : Activity() {
 
         val radioPackage = navRadioHelper.selectedNavRadioPackage
         if (radioPackage == null) {
-            Toast.makeText(this, "No compatible NavRadio app installed.", Toast.LENGTH_LONG).show()
+            Toast.makeText(this, getString(R.string.no_compatible_radio_app_installed), Toast.LENGTH_LONG).show()
             finish()
             return
         }
@@ -247,23 +244,23 @@ class FmMainActivity : Activity() {
 
     private fun showPermissionDialog() {
         AlertDialog.Builder(this)
-            .setTitle("Permission Required")
-            .setMessage("To fix the media widget, the app needs permission to display over other apps. Please enable it in the next screen.")
-            .setPositiveButton("Open Settings") { dialog, _ ->
+            .setTitle(getString(R.string.permission_required))
+            .setMessage(getString(R.string.permission_required_message))
+            .setPositiveButton(getString(R.string.open_settings)) { dialog, _ ->
                 try {
                     val intent = Intent(
                         Settings.ACTION_MANAGE_OVERLAY_PERMISSION,
-                        Uri.parse("package:$packageName")
+                        "package:$packageName".toUri()
                     ).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
                     startActivity(intent)
                 } catch (settingsEx: Exception) {
                     Log.e(TAG, "Could not open overlay permission settings.", settingsEx)
-                    Toast.makeText(this, "Could not open settings. Please grant permission manually.", Toast.LENGTH_LONG).show()
+                    Toast.makeText(this, getString(R.string.could_not_open_settings), Toast.LENGTH_LONG).show()
                 }
                 dialog.dismiss()
                 uncloakAndFinish()
             }
-            .setNegativeButton("Cancel") { dialog, _ ->
+            .setNegativeButton(getString(R.string.cancel)) { dialog, _ ->
                 dialog.dismiss()
                 uncloakAndFinish()
             }
@@ -294,7 +291,11 @@ class FmMainActivity : Activity() {
     private fun registerFinishReceiver() {
         try {
             val filter = IntentFilter(ACTION_FINISH_PROXY)
-            registerReceiver(finishProxyReceiver, filter)
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+                registerReceiver(finishProxyReceiver, filter, RECEIVER_EXPORTED)
+            } else {
+                registerReceiver(finishProxyReceiver, filter)
+            }
             Log.d(TAG, "Finish receiver registered.")
         } catch (e: Exception) {
             Log.e(TAG, "Failed to register finish receiver", e)
@@ -307,16 +308,16 @@ class FmMainActivity : Activity() {
         try {
             unregisterReceiver(finishProxyReceiver)
             Log.d(TAG, "Finish receiver unregistered.")
-        } catch (e: IllegalArgumentException) {
+        } catch (_: IllegalArgumentException) {
             Log.w(TAG, "Finish receiver was not registered.")
         }
         Log.d(TAG, "---------- FmMainActivity: onDestroy ----------")
     }
 
-    private fun logIntent(intent: Intent, context: String) {
+    private fun logIntent(intent: Intent) {
         val extrasString = intent.extras?.let { bundle ->
-            bundle.keySet().joinToString(", ") { key -> "$key=${bundle[key]}" }
+            bundle.keySet().joinToString(", ") { key -> "$key=${bundle.get(key)}" }
         } ?: "null"
-        Log.d(TAG, "Intent received in $context - Action: ${intent.action}, Extras: $extrasString")
+        Log.d(TAG, "Intent received in updateLaunchSource - Action: ${intent.action}, Extras: $extrasString")
     }
 }

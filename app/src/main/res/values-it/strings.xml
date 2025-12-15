@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Radio-KM</string>
+
+    <!-- FmMainActivity -->
+    <string name="no_compatible_radio_app_installed">Nessuna app NavRadio compatibile installata.</string>
+    <string name="permission_required">Permesso Richiesto</string>
+    <string name="permission_required_message">Per correggere il widget multimediale, l\'app necessita del permesso di essere visualizzata sopra altre app. Abilitalo nella schermata successiva.</string>
+    <string name="open_settings">Apri Impostazioni</string>
+    <string name="could_not_open_settings">Impossibile aprire le impostazioni. Concedi il permesso manualmente.</string>
+    <string name="cancel">Annulla</string>
+
+    <!-- WidgetWatcherService -->
+    <string name="notification_channel_name">Servizio di Controllo Widget</string>
+    <string name="notification_title">Radio-KM Proxy</string>
+    <string name="notification_text">Aiutando NavRadio a mantenere il widget.</string>
+</resources>

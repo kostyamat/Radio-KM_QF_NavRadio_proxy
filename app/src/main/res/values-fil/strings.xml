@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Radio-KM</string>
+
+    <!-- FmMainActivity -->
+    <string name="no_compatible_radio_app_installed">Walang naka-install na katugmang NavRadio app.</string>
+    <string name="permission_required">Kailangan ng Pahintulot</string>
+    <string name="permission_required_message">Para ayusin ang media widget, kailangan ng app ng pahintulot na ipakita sa ibabaw ng iba pang mga app. Paki-enable ito sa susunod na screen.</string>
+    <string name="open_settings">Buksan ang Mga Setting</string>
+    <string name="could_not_open_settings">Hindi mabuksan ang mga setting. Paki-grant ang pahintulot nang manu-mano.</string>
+    <string name="cancel">Kanselahin</string>
+
+    <!-- WidgetWatcherService -->
+    <string name="notification_channel_name">Serbisyo ng Widget Watcher</string>
+    <string name="notification_title">Radio-KM Proxy</string>
+    <string name="notification_text">Pagtulong sa NavRadio na mapanatili ang widget.</string>
+</resources>

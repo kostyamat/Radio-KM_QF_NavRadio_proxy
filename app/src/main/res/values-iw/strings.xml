@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Radio-KM</string>
+
+    <!-- FmMainActivity -->
+    <string name="no_compatible_radio_app_installed">לא מותקנת אפליקציית NavRadio תואמת.</string>
+    <string name="permission_required">נדרשת הרשאה</string>
+    <string name="permission_required_message">כדי לתקן את ווידג\'ט המדיה, האפליקציה זקוקה להרשאה להצגה מעל אפליקציות אחרות. אנא הפעל אותה במסך הבא.</string>
+    <string name="open_settings">פתח הגדרות</string>
+    <string name="could_not_open_settings">לא ניתן היה לפתוח את ההגדרות. אנא הענק הרשאה באופן ידני.</string>
+    <string name="cancel">ביטול</string>
+
+    <!-- WidgetWatcherService -->
+    <string name="notification_channel_name">שירות צופה בווידג\'טים</string>
+    <string name="notification_title">Radio-KM Proxy</string>
+    <string name="notification_text">עוזר ל-NavRadio לשמור על הווידג\'ט.</string>
+</resources>

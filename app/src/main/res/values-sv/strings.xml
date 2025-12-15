@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Radio-KM</string>
+
+    <!-- FmMainActivity -->
+    <string name="no_compatible_radio_app_installed">Ingen kompatibel NavRadio-app installerad.</string>
+    <string name="permission_required">Behörighet krävs</string>
+    <string name="permission_required_message">För att fixa mediewidgeten behöver appen behörighet att visas över andra appar. Aktivera den på nästa skärm.</string>
+    <string name="open_settings">Öppna inställningar</string>
+    <string name="could_not_open_settings">Kunde inte öppna inställningarna. Vänligen bevilja behörighet manuellt.</string>
+    <string name="cancel">Avbryt</string>
+
+    <!-- WidgetWatcherService -->
+    <string name="notification_channel_name">Widget Watcher Service</string>
+    <string name="notification_title">Radio-KM Proxy</string>
+    <string name="notification_text">Hjälper NavRadio att behålla widgeten.</string>
+</resources>

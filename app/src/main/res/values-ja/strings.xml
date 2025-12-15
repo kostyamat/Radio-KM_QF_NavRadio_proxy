@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Radio-KM</string>
+
+    <!-- FmMainActivity -->
+    <string name="no_compatible_radio_app_installed">互換性のあるNavRadioアプリがインストールされていません。</string>
+    <string name="permission_required">権限が必要です</string>
+    <string name="permission_required_message">メディアウィジェットを修正するには、アプリが他のアプリの上に表示される権限が必要です。次の画面で有効にしてください。</string>
+    <string name="open_settings">設定を開く</string>
+    <string name="could_not_open_settings">設定を開けませんでした。手動で権限を付与してください。</string>
+    <string name="cancel">キャンセル</string>
+
+    <!-- WidgetWatcherService -->
+    <string name="notification_channel_name">ウィジェットウォッチャーサービス</string>
+    <string name="notification_title">Radio-KM プロキシ</string>
+    <string name="notification_text">NavRadioがウィジェットを維持するのを助けています。</string>
+</resources>

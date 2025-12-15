@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Radio-KM</string>
+
+    <!-- FmMainActivity -->
+    <string name="no_compatible_radio_app_installed">Үйлесімді NavRadio қолданбасы орнатылмаған.</string>
+    <string name="permission_required">Рұқсат қажет</string>
+    <string name="permission_required_message">Медиа виджетін жөндеу үшін қолданбаға басқа қолданбалардың үстінде көрсетуге рұқсат қажет. Оны келесі экранда қосыңыз.</string>
+    <string name="open_settings">Параметрлерді ашу</string>
+    <string name="could_not_open_settings">Параметрлерді ашу мүмкін болмады. Рұқсатты қолмен беріңіз.</string>
+    <string name="cancel">Бас тарту</string>
+
+    <!-- WidgetWatcherService -->
+    <string name="notification_channel_name">Виджетті бақылау қызметі</string>
+    <string name="notification_title">Radio-KM прокси</string>
+    <string name="notification_text">NavRadio-ға виджетті сақтауға көмектесу.</string>
+</resources>

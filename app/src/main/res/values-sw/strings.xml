@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Radio-KM</string>
+
+    <!-- FmMainActivity -->
+    <string name="no_compatible_radio_app_installed">Hakuna programu ya NavRadio inayooana iliyosakinishwa.</string>
+    <string name="permission_required">Ruhusa Inahitajika</string>
+    <string name="permission_required_message">Ili kurekebisha wijeti ya midia, programu inahitaji ruhusa ya kuonyeshwa juu ya programu zingine. Tafadhali iwashe kwenye skrini inayofuata.</string>
+    <string name="open_settings">Fungua Mipangilio</string>
+    <string name="could_not_open_settings">Imeshindwa kufungua mipangilio. Tafadhali toa ruhusa mwenyewe.</string>
+    <string name="cancel">Ghairi</string>
+
+    <!-- WidgetWatcherService -->
+    <string name="notification_channel_name">Huduma ya Kuangalia Wijeti</string>
+    <string name="notification_title">Proksi ya Radio-KM</string>
+    <string name="notification_text">Inasaidia NavRadio kuweka wijeti.</string>
+</resources>

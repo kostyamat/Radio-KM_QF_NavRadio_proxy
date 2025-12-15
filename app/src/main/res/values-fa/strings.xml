@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Radio-KM</string>
+
+    <!-- FmMainActivity -->
+    <string name="no_compatible_radio_app_installed">هیچ برنامه سازگار NavRadio نصب نشده است.</string>
+    <string name="permission_required">مجوز لازم است</string>
+    <string name="permission_required_message">برای تعمیر ویجت رسانه، برنامه نیاز به مجوز برای نمایش روی برنامه\u200cهای دیگر دارد. لطفاً آن را در صفحه بعدی فعال کنید.</string>
+    <string name="open_settings">باز کردن تنظیمات</string>
+    <string name="could_not_open_settings">باز کردن تنظیمات امکان\u200cپذیر نبود. لطفاً مجوز را به صورت دستی اعطا کنید.</string>
+    <string name="cancel">لغو</string>
+
+    <!-- WidgetWatcherService -->
+    <string name="notification_channel_name">سرویس ناظر ویجت</string>
+    <string name="notification_title">پراکسی Radio-KM</string>
+    <string name="notification_text">کمک به NavRadio برای حفظ ویجت.</string>
+</resources>

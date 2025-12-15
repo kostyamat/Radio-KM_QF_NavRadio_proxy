@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Radio-KM</string>
+
+    <!-- FmMainActivity -->
+    <string name="no_compatible_radio_app_installed">Nav instalēta saderīga NavRadio lietotne.</string>
+    <string name="permission_required">Nepieciešama atļauja</string>
+    <string name="permission_required_message">Lai labotu multivides logrīku, lietotnei ir nepieciešama atļauja rādīt virs citām lietotnēm. Lūdzu, iespējojiet to nākamajā ekrānā.</string>
+    <string name="open_settings">Atvērt iestatījumus</string>
+    <string name="could_not_open_settings">Nevarēja atvērt iestatījumus. Lūdzu, piešķiriet atļauju manuāli.</string>
+    <string name="cancel">Atcelt</string>
+
+    <!-- WidgetWatcherService -->
+    <string name="notification_channel_name">Logrīku uzrauga pakalpojums</string>
+    <string name="notification_title">Radio-KM starpniekserveris</string>
+    <string name="notification_text">Palīdz NavRadio saglabāt logrīku.</string>
+</resources>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Radio-KM</string>
+
+    <!-- FmMainActivity -->
+    <string name="no_compatible_radio_app_installed">Nincs telepítve kompatibilis NavRadio alkalmazás.</string>
+    <string name="permission_required">Engedély szükséges</string>
+    <string name="permission_required_message">A média widget javításához az alkalmazásnak engedélyre van szüksége, hogy más alkalmazások felett jelenjen meg. Kérjük, engedélyezze a következő képernyőn.</string>
+    <string name="open_settings">Beállítások megnyitása</string>
+    <string name="could_not_open_settings">Nem sikerült megnyitni a beállításokat. Kérjük, adja meg manuálisan az engedélyt.</string>
+    <string name="cancel">Mégse</string>
+
+    <!-- WidgetWatcherService -->
+    <string name="notification_channel_name">Widget Figyelő Szolgáltatás</string>
+    <string name="notification_title">Radio-KM Proxy</string>
+    <string name="notification_text">Segítség a NavRadionak a widget megtartásában.</string>
+</resources>

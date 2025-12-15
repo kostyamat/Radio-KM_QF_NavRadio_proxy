@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Radio-KM</string>
+
+    <!-- FmMainActivity -->
+    <string name="no_compatible_radio_app_installed">అనుకూల NavRadio యాప్ ఇన్‌స్టాల్ చేయబడలేదు.</string>
+    <string name="permission_required">అనుమతి అవసరం</string>
+    <string name="permission_required_message">మీడియా విడ్జెట్‌ను పరిష్కరించడానికి, యాప్‌కు ఇతర యాప్‌ల కంటే ప్రదర్శించడానికి అనుమతి అవసరం. దయచేసి తదుపరి స్క్రీన్‌లో దీన్ని ప్రారంభించండి.</string>
+    <string name="open_settings">సెట్టింగ్‌లను తెరవండి</string>
+    <string name="could_not_open_settings">సెట్టింగ్‌లను తెరవలేకపోయింది. దయచేసి మాన్యువల్‌గా అనుమతి ఇవ్వండి.</string>
+    <string name="cancel">రద్దు చేయండి</string>
+
+    <!-- WidgetWatcherService -->
+    <string name="notification_channel_name">విడ్జెట్ వాచర్ సేవ</string>
+    <string name="notification_title">Radio-KM ప్రాక్సీ</string>
+    <string name="notification_text">విడ్జెట్‌ను ఉంచడంలో NavRadioకి సహాయం చేస్తుంది.</string>
+</resources>

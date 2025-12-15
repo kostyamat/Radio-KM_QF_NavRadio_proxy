@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Radio-KM</string>
+
+    <!-- FmMainActivity -->
+    <string name="no_compatible_radio_app_installed">Ez dago NavRadio aplikazio bateragarririk instalatuta.</string>
+    <string name="permission_required">Baimena behar da</string>
+    <string name="permission_required_message">Komunikabideen trepeta konpontzeko, aplikazioak beste aplikazioen gainean bistaratzeko baimena behar du. Gaitu ezazu hurrengo pantailan.</string>
+    <string name="open_settings">Ireki ezarpenak</string>
+    <string name="could_not_open_settings">Ezin izan dira ezarpenak ireki. Eman baimena eskuz.</string>
+    <string name="cancel">Utzi</string>
+
+    <!-- WidgetWatcherService -->
+    <string name="notification_channel_name">Widget-en zaintza zerbitzua</string>
+    <string name="notification_title">Radio-KM proxy</string>
+    <string name="notification_text">NavRadio-ri trepeta mantentzen laguntzen.</string>
+</resources>

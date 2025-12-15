@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Radio-KM</string>
+
+    <!-- FmMainActivity -->
+    <string name="no_compatible_radio_app_installed">Ühilduvat NavRadio rakendust pole installitud.</string>
+    <string name="permission_required">Vajalik luba</string>
+    <string name="permission_required_message">Meediumividina parandamiseks vajab rakendus luba kuvamiseks teiste rakenduste peal. Palun lubage see järgmisel kuval.</string>
+    <string name="open_settings">Ava seaded</string>
+    <string name="could_not_open_settings">Seadeid ei saanud avada. Palun andke luba käsitsi.</string>
+    <string name="cancel">Tühista</string>
+
+    <!-- WidgetWatcherService -->
+    <string name="notification_channel_name">Vidinavalvuri teenus</string>
+    <string name="notification_title">Radio-KM proksi</string>
+    <string name="notification_text">Aitab NavRadiol vidinat säilitada.</string>
+</resources>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Radio-KM</string>
+
+    <!-- FmMainActivity -->
+    <string name="no_compatible_radio_app_installed">Geen versoenbare NavRadio-toepassing geïnstalleer nie.</string>
+    <string name="permission_required">Toestemming benodig</string>
+    <string name="permission_required_message">Om die media-legstuk reg te stel, het die toepassing toestemming nodig om bo-oor ander toepassings te vertoon. Aktiveer dit asseblief in die volgende skerm.</string>
+    <string name="open_settings">Maak instellings oop</string>
+    <string name="could_not_open_settings">Kon nie instellings oopmaak nie. Gee asseblief toestemming handmatig.</string>
+    <string name="cancel">Kanselleer</string>
+
+    <!-- WidgetWatcherService -->
+    <string name="notification_channel_name">Legstukwagdiens</string>
+    <string name="notification_title">Radio-KM-instaanbediener</string>
+    <string name="notification_text">Help NavRadio om die legstuk te behou.</string>
+</resources>

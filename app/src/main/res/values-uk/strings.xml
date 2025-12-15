@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Radio-KM</string>
+
+    <!-- FmMainActivity -->
+    <string name="no_compatible_radio_app_installed">Не знайдено сумісного додатка NavRadio.</string>
+    <string name="permission_required">Потрібен дозвіл</string>
+    <string name="permission_required_message">Для виправлення віджета додатку потрібен дозвіл на відображення поверх інших програм. Будь ласка, надайте його на наступному екрані.</string>
+    <string name="open_settings">Відкрити налаштування</string>
+    <string name="could_not_open_settings">Не вдалося відкрити налаштування. Надайте дозвіл вручну.</string>
+    <string name="cancel">Скасувати</string>
+
+    <!-- WidgetWatcherService -->
+    <string name="notification_channel_name">Сервіс спостереження за віджетом</string>
+    <string name="notification_title">Radio-KM Proxy</string>
+    <string name="notification_text">Допомагаємо NavRadio утримувати віджет.</string>
+</resources>

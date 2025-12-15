@@ -1,3 +1,16 @@
 <resources>
-    <string name="app_name">Radio</string>
+    <string name="app_name">Radio-KM</string>
+
+    <!-- FmMainActivity -->
+    <string name="no_compatible_radio_app_installed">No compatible NavRadio app installed.</string>
+    <string name="permission_required">Permission Required</string>
+    <string name="permission_required_message">To fix the media widget, the app needs permission to display over other apps. Please enable it in the next screen.</string>
+    <string name="open_settings">Open Settings</string>
+    <string name="could_not_open_settings">Could not open settings. Please grant permission manually.</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- WidgetWatcherService -->
+    <string name="notification_channel_name">Widget Watcher Service</string>
+    <string name="notification_title">Radio-KM Proxy</string>
+    <string name="notification_text">Helping NavRadio to keep the widget.</string>
 </resources>

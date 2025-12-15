@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Radio-KM</string>
+
+    <!-- FmMainActivity -->
+    <string name="no_compatible_radio_app_installed">호환되는 NavRadio 앱이 설치되어 있지 않습니다.</string>
+    <string name="permission_required">권한 필요</string>
+    <string name="permission_required_message">미디어 위젯을 수정하려면 앱이 다른 앱 위에 표시될 수 있는 권한이 필요합니다. 다음 화면에서 활성화해 주세요.</string>
+    <string name="open_settings">설정 열기</string>
+    <string name="could_not_open_settings">설정을 열 수 없습니다. 수동으로 권한을 부여해 주세요.</string>
+    <string name="cancel">취소</string>
+
+    <!-- WidgetWatcherService -->
+    <string name="notification_channel_name">위젯 감시 서비스</string>
+    <string name="notification_title">Radio-KM 프록시</string>
+    <string name="notification_text">NavRadio가 위젯을 유지하도록 돕습니다.</string>
+</resources>

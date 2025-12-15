@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Radio-KM</string>
+
+    <!-- FmMainActivity -->
+    <string name="no_compatible_radio_app_installed">თავსებადი NavRadio აპი დაინსტალირებული არ არის.</string>
+    <string name="permission_required">საჭიროა ნებართვა</string>
+    <string name="permission_required_message">მედია ვიჯეტის გამოსასწორებლად, აპს სჭირდება ნებართვა სხვა აპებზე გამოსაჩენად. გთხოვთ, ჩართოთ ის შემდეგ ეკრანზე.</string>
+    <string name="open_settings">პარამეტრების გახსნა</string>
+    <string name="could_not_open_settings">პარამეტრების გახსნა ვერ მოხერხდა. გთხოვთ, ნებართვა ხელით მიანიჭოთ.</string>
+    <string name="cancel">გაუქმება</string>
+
+    <!-- WidgetWatcherService -->
+    <string name="notification_channel_name">ვიჯეტის მაყურებლის სერვისი</string>
+    <string name="notification_title">Radio-KM პროქსი</string>
+    <string name="notification_text">ეხმარება NavRadio-ს ვიჯეტის შენარჩუნებაში.</string>
+</resources>

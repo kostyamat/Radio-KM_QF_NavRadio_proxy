@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Radio-KM</string>
+
+    <!-- FmMainActivity -->
+    <string name="no_compatible_radio_app_installed">ምንም ተኳሃኝ የNavRadio መተግበሪያ አልተጫነም።</string>
+    <string name="permission_required">ፍቃድ ያስፈልጋል</string>
+    <string name="permission_required_message">የሚዲያ መግብርን ለማስተካከል መተግበሪያው ከሌሎች መተግበሪያዎች በላይ እንዲታይ ፍቃድ ይፈልጋል። እባክዎ በሚቀጥለው ማያ ገጽ ላይ ያንቁት።</string>
+    <string name="open_settings">ቅንብሮችን ክፈት</string>
+    <string name="could_not_open_settings">ቅንብሮችን መክፈት አልተቻለም። እባክዎ ፍቃዱን በእጅ ይስጡ።</string>
+    <string name="cancel">ሰርዝ</string>
+
+    <!-- WidgetWatcherService -->
+    <string name="notification_channel_name">የመግብር ተመልካች አገልግሎት</string>
+    <string name="notification_title">Radio-KM ፕሮክሲ</string>
+    <string name="notification_text">NavRadio መግብርን እንዲይዝ መርዳት።</string>
+</resources>

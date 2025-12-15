@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Radio-KM</string>
+
+    <!-- FmMainActivity -->
+    <string name="no_compatible_radio_app_installed">Няма инсталирано съвместимо приложение NavRadio.</string>
+    <string name="permission_required">Изисква се разрешение</string>
+    <string name="permission_required_message">За да коригирате медийния уиджет, приложението се нуждае от разрешение за показване върху други приложения. Моля, активирайте го на следващия екран.</string>
+    <string name="open_settings">Отваряне на настройките</string>
+    <string name="could_not_open_settings">Неуспешно отваряне на настройките. Моля, дайте разрешение ръчно.</string>
+    <string name="cancel">Отказ</string>
+
+    <!-- WidgetWatcherService -->
+    <string name="notification_channel_name">Услуга за наблюдение на уиджети</string>
+    <string name="notification_title">Radio-KM прокси</string>
+    <string name="notification_text">Помага на NavRadio да запази уиджета.</string>
+</resources>
